@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مطعم قصر الشرق للمشويات والمأكولات الشرقية | أصالة المذاق العربي وحفاوة الضيافة</title>
+  
+  <!-- وسوم تحسين محركات البحث (SEO Meta Tags) -->
+  <meta name="description" content="استمتع بأفخم المشويات على الفحم، الطواجن الفخارية المعتقة، والمقبلات الشامية الأصيلة في مطعم قصر الشرق. فروعنا في القاهرة الجديدة (التجمع الخامس) والشيخ زايد بالجيزة. احجز طاولتك الآن." />
+  <meta name="keywords" content="مطعم شرقي, مشويات, كباب وكفتة, طواجن, القاهرة, الجيزة, التجمع الخامس, الشيخ زايد, حجز مطعم, قائمة طعام شرقي" />
+  <meta name="author" content="قصر الشرق" />
+
+  <!-- Open Graph / وسائل التواصل الاجتماعي -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="مطعم قصر الشرق للمشويات والمأكولات الشرقية" />
+  <meta property="og:description" content="أصالة المذاق العربي وحفاوة الضيافة الشرقية. أشهى المشويات على الفحم والطواجن في القاهرة والجيزة." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- ملفات التنسيق والأنيميشن -->
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- بيانات منظمة لمحركات البحث (Schema.org Structured Data) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "مطعم قصر الشرق",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1",
+    "servesCuisine": "Middle Eastern, Egyptian, Grills",
+    "telephone": "19988",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cairo",
+      "addressCountry": "EG"
+    }
+  }
+  </script>
+</head>
+<body class="oriental-pattern-bg">
+
+  <!-- ====================================================================
+       الهيدر وشريط التنقل العلوي (Header & Navigation)
+       ==================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <nav class="nav-inner">
+        <!-- الشعار -->
+        <a href="#home" class="brand-logo">
+          <div class="brand-icon">⚜️</div>
+          <div class="brand-text-wrapper">
+            <span class="brand-title restaurant-name-target">قصر الشرق</span>
+            <span class="brand-subtitle restaurant-subname-target">للمشويات والضيافة الشرقية</span>
+          </div>
+        </a>
+
+        <!-- روابط القائمة -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+          <li><a href="#about" class="nav-link">قصتنا</a></li>
+          <li><a href="#features" class="nav-link">مميزاتنا</a></li>
+          <li><a href="#menu" class="nav-link">قائمة الطعام</a></li>
+          <li><a href="#branches" class="nav-link">فروعنا</a></li>
+          <li><a href="#reviews" class="nav-link">آراء ضيوفنا</a></li>
+          <li><a href="#reservation" class="nav-link">حجز طاولة</a></li>
+        </ul>
+
+        <!-- الأزرار والخط الساخن -->
+        <div class="header-actions">
+          <a href="tel:19988" class="hotline-badge">
+            <span>📞</span>
+            <span class="hotline-target">19988</span>
+          </a>
+          <a href="#reservation" class="btn btn-primary btn-sm">
+            <span>احجز الآن</span>
+          </a>
+          <button class="mobile-toggle" id="mobileToggle" aria-label="فتح القائمة">
+            ☰
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====================================================================
+       القسم الرئيسي (Hero Section)
+       ==================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-backdrop">
+      <img 
+        src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1920&q=85" 
+        alt="وليمة مشويات شرقية فاخرة" 
+        class="hero-backdrop-img" 
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge animate-float">
+        <span>✨</span>
+        <span>تجربة ضيافة شرقية ملكية لا تُنسى</span>
+        <span>✨</span>
+      </div>
+
+      <h1 class="hero-headline">
+        أصالة المذاق العربي في <br />
+        <span class="highlight-gold restaurant-name-target">مطعم قصر الشرق</span>
+      </h1>
+
+      <p class="hero-tagline">
+        نأخذك في رحلة تذوق استثنائية عبر عبق التاريخ، مع أشهى المشويات على الفحم الحجري، الطواجن الفخارية المعتقة، والمقبلات الشامية بوصفات أصلية متوارثة.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">
+          <span>🍽️</span>
+          <span>استكشف قائمة المأكولات</span>
+        </a>
+        <a href="#reservation" class="btn btn-burgundy">
+          <span>📅</span>
+          <span>احجز طاولتك الآن</span>
+        </a>
+        <a href="#branches" class="btn btn-outline">
+          <span>📍</span>
+          <span>فروع القاهرة والجيزة</span>
+        </a>
+      </div>
+
+      <!-- شريط الميزات السريعة أسفل الهيرو -->
+      <div class="hero-features-bar">
+        <div class="hero-feature-item">
+          <div class="hero-feature-icon">🥩</div>
+          <div>
+            <div class="hero-feature-title">لحوم بلدية 100%</div>
+            <div class="hero-feature-desc">طازجة ومختارة يومياً بعناية</div>
+          </div>
+        </div>
+
+        <div class="hero-feature-item">
+          <div class="hero-feature-icon">🔥</div>
+          <div>
+            <div class="hero-feature-title">شوي على الفحم الطبيعي</div>
+            <div class="hero-feature-desc">بنكهة الجمر وتتبيلة سرية</div>
+          </div>
+        </div>
+
+        <div class="hero-feature-item">
+          <div class="hero-feature-icon">🫓</div>
+          <div>
+            <div class="hero-feature-title">خبز بلدي ساخن من الفرن</div>
+            <div class="hero-feature-desc">يُخبز أمامك ويقدم طازجاً</div>
+          </div>
+        </div>
+
+        <div class="hero-feature-item">
+          <div class="hero-feature-icon">👑</div>
+          <div>
+            <div class="hero-feature-title">جلسات عائلية خاصة</div>
+            <div class="hero-feature-desc">أقصى درجات الخصوصية والرقي</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       قسم عن المطعم وقصتنا (About Us Section)
+       ==================================================================== -->
+  <section class="section-padding" id="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-content">
+          <div class="section-tag">
+            <span>⚜️</span>
+            <span>تاريخ من الشغف والتميز</span>
+          </div>
+          <h2 class="about-headline">
+            قصتنا نُسجت من <span class="text-gold">حب الضيافة العربية</span> وتوارث أسرار الطهي
+          </h2>
+          <p class="about-text">
+            بدأت رحلتنا منذ أكثر من ربع قرن برؤية واحدة: الحفاظ على الطابع الأصيل للمطبخ الشرقي وتقديمه برقي يعكس كرم وحفاوة الضيافة العربية. في مطعمنا، لا نعد مجرد وجبات، بل نصنع ذكريات عائلية مفعمة بالدفء والنكهة.
+          </p>
+          <p class="about-text">
+            ننتقي أجود قطعيات اللحم البتلو والضاني من مزارعنا الخاصة، ونتبلها بمزيج فريد من الأعشاب الجبلية والتوابل الشرقية المعتقة، لنقدم لكل ضيف طبقاً يجمع بين عبق التراث ودقة المعايير الحديثة.
+          </p>
+
+          <div class="about-quote">
+            "السر الحقيقي في نكهتنا ليس فقط في بهاراتنا المتوارثة، بل في المحبة والشغف الذي نضعه في كل طبق يقدم لضيوفنا."
+          </div>
+
+          <!-- إحصائيات المطعم -->
+          <div class="stats-grid" id="statsGrid">
+            <!-- يتم تعبئتها تلقائياً من ملف config.js -->
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="about-image-card">
+            <img 
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" 
+              alt="أجواء وديكور قصر الشرق الفاخر" 
+              loading="lazy" 
+            />
+          </div>
+          <div class="about-badge-float animate-float">
+            <div class="about-badge-icon">🏅</div>
+            <div>
+              <div class="about-badge-title">جودة مضمونة 100%</div>
+              <div class="about-badge-sub">أعلى معايير النظافة والضيافة</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       قسم المميزات (Why Choose Us)
+       ==================================================================== -->
+  <section class="section-padding" id="features" style="background: rgba(24, 19, 24, 0.45);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span>🌟</span>
+          <span>سر تميزنا</span>
+        </div>
+        <h2 class="section-title">لماذا يختار الضيوف <span class="text-gold restaurant-name-target">قصر الشرق</span>؟</h2>
+        <div class="oriental-divider"><span>✦</span></div>
+        <p class="section-desc">نجمع بين روعة المذاق وجمال الأجواء لنوفر لك ولعائلتك تجربة مطعم لا تُنسى في كل زيارة.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-box">🥩</div>
+          <h3 class="feature-card-title">لحوم بلدية طازجة</h3>
+          <p class="feature-card-text">
+            نعتمد كلياً على أجود اللحوم البلدية الطازجة التي تُذبح يومياً، مع الالتزام التام بأعلى معايير الجودة والتغذية الطبيعية.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">🔥</div>
+          <h3 class="feature-card-title">شوي الفحم الأصيل</h3>
+          <p class="feature-card-text">
+            شوايات حجرية ضخمة تعمل بالفحم النباتي الطبيعي لإكساب المشويات نكهة التدخين اللذيذة ولون التحمير الذهبي المقرمش.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">🏺</div>
+          <h3 class="feature-card-title">طواجن فخار معتقة</h3>
+          <p class="feature-card-text">
+            طواجن طينية مصرية ومغربية تطهى على نار هادئة بالساعات في أفران بلدي ليذوب اللحم في نسيج من الصوص الغني.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">🏰</div>
+          <h3 class="feature-card-title">أجواء أندلسية راقية</h3>
+          <p class="feature-card-text">
+            ديكورات شرقية ساحرة، إضاءة دافئة، جلسات عائلية مريحة مع توفير أعلى درجات الخصوصية للمناسبات والعزومات.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       قسم قائمة الطعام التفاعلية (Interactive Menu Section)
+       ==================================================================== -->
+  <section class="section-padding" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span>📜</span>
+          <span>شهية ملكية</span>
+        </div>
+        <h2 class="section-title">قائمة المأكولات <span class="text-gold">الشرقية الفاخرة</span></h2>
+        <div class="oriental-divider"><span>✦</span></div>
+        <p class="section-desc">استعرض أشهى أطباقنا المصنفة بعناية، من المشويات الساخنة إلى الطواجن والمقبلات والحلويات.</p>
+      </div>
+
+      <!-- أزرار تبويبات التصنيف -->
+      <div class="menu-categories-tabs" id="menuCategoriesTabs">
+        <!-- يتم توليد الأزرار تلقائياً عبر JavaScript -->
+      </div>
+
+      <!-- شبكة بطاقات الأطباق -->
+      <div class="menu-grid" id="menuGrid">
+        <!-- يتم توليد البطاقات ديناميكياً عبر JavaScript من menu-data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- شريط / صينية الطلبات العائمة (Quick Order Tray) -->
+  <div class="order-tray-floating" id="orderTray">
+    <div class="order-tray-info">
+      <span class="order-tray-count" id="trayItemCount">0 أطباق</span>
+      <span class="order-tray-total" id="trayTotalAmount">0 ج.م</span>
+    </div>
+    <button class="btn btn-primary btn-sm" id="btnSendOrderWhatsApp">
+      <span>💬</span>
+      <span>طلب عبر واتساب</span>
+    </button>
+  </div>
+
+  <!-- ====================================================================
+       قسم الفروع والمواقع (Branches & Locations Section)
+       ==================================================================== -->
+  <section class="section-padding" id="branches" style="background: rgba(15, 12, 15, 0.9);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span>🗺️</span>
+          <span>مواقعنا في خدمتك</span>
+        </div>
+        <h2 class="section-title">فروع <span class="text-gold restaurant-name-target">قصر الشرق</span></h2>
+        <div class="oriental-divider"><span>✦</span></div>
+        <p class="section-desc">يسعدنا استقبالكم في فرعينا الفاخرين في القاهرة والجيزة، مع خدمات متكاملة وساحات انتظار سيارات.</p>
+      </div>
+
+      <!-- أزرار التبديل بين فرع القاهرة وفرع الجيزة -->
+      <div class="branches-nav-tabs" id="branchesNavTabs">
+        <!-- يتم توليد الأزرار تلقائياً عبر JavaScript -->
+      </div>
+
+      <!-- لوحة عرض تفاصيل الفرع المختار والخريطة المدمجة -->
+      <div class="branches-content-display" id="branchDetailsDisplay">
+        <!-- يتم تحديث تفاصيل الفرع والخريطة التفاعلية من config.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       قسم حجز الطاولات (Table Reservation Section)
+       ==================================================================== -->
+  <section class="section-padding reservation-section" id="reservation">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span>🛎️</span>
+          <span>ضيافة خاصة</span>
+        </div>
+        <h2 class="section-title">احجز طاولتك <span class="text-gold">مسبقاً بكل سهولة</span></h2>
+        <div class="oriental-divider"><span>✦</span></div>
+        <p class="section-desc">وفر وقتك واستمتع بأفضل طاولة مجهزة لك ولعائلتك في الفرع الأقرب إليك.</p>
+      </div>
+
+      <div class="reservation-box">
+        <form id="reservationForm">
+          <div class="reservation-form-grid">
+            <!-- الاسم بالكامل -->
+            <div class="form-group">
+              <label for="resName" class="form-label">
+                <span>👤</span>
+                <span>الاسم الكريم بالكامل</span>
+              </label>
+              <input type="text" id="resName" class="form-control" placeholder="مثال: أحمد محمد الشافعي" required />
+            </div>
+
+            <!-- رقم الهاتف -->
+            <div class="form-group">
+              <label for="resPhone" class="form-label">
+                <span>📱</span>
+                <span>رقم الهاتف أو الجوال</span>
+              </label>
+              <input type="tel" id="resPhone" class="form-control" placeholder="مثال: 01012345678" required />
+            </div>
+
+            <!-- اختيار الفرع -->
+            <div class="form-group">
+              <label for="resBranch" class="form-label">
+                <span>📍</span>
+                <span>اختر الفرع المراد الحجز به</span>
+              </label>
+              <select id="resBranch" class="form-control" required>
+                <option value="فرع القاهرة (التجمع الخامس - شارع التسعين)">فرع القاهرة (التجمع الخامس - شارع التسعين)</option>
+                <option value="فرع الجيزة (الشيخ زايد - محور 26 يوليو)">فرع الجيزة (الشيخ زايد - محور 26 يوليو)</option>
+              </select>
+            </div>
+
+            <!-- عدد الأفراد -->
+            <div class="form-group">
+              <label for="resGuests" class="form-label">
+                <span>👥</span>
+                <span>عدد الضيوف والأفراد</span>
+              </label>
+              <select id="resGuests" class="form-control" required>
+                <option value="فردين">فردين (طاولة ثنائية)</option>
+                <option value="3 إلى 4 أفراد" selected>3 إلى 4 أفراد (طاولة عائلية)</option>
+                <option value="5 إلى 8 أفراد">5 إلى 8 أفراد (عزومة عائلية متوسطة)</option>
+                <option value="أكثر من 8 أفراد">أكثر من 8 أفراد (قاعة أو طاولة مدمجة)</option>
+                <option value="مناسبة خاصة / احتفال">مناسبة خاصة / احتفال أو عيد ميلاد</option>
+              </select>
+            </div>
+
+            <!-- تاريخ الحجز -->
+            <div class="form-group">
+              <label for="resDate" class="form-label">
+                <span>📅</span>
+                <span>تاريخ الحضور</span>
+              </label>
+              <input type="date" id="resDate" class="form-control" required />
+            </div>
+
+            <!-- وقت الحجز -->
+            <div class="form-group">
+              <label for="resTime" class="form-label">
+                <span>⏰</span>
+                <span>وقت الحضور التقريبي</span>
+              </label>
+              <select id="resTime" class="form-control" required>
+                <option value="01:00 ظهراً">01:00 ظهراً (فترة الغداء)</option>
+                <option value="03:00 عصراً">03:00 عصراً</option>
+                <option value="05:00 مساءً">05:00 مساءً</option>
+                <option value="07:00 مساءً">07:00 مساءً (بداية العشاء)</option>
+                <option value="09:00 مساءً" selected>09:00 مساءً (ساعة الذروة)</option>
+                <option value="11:00 مساءً">11:00 مساءً (سهرة مسائية)</option>
+              </select>
+            </div>
+
+            <!-- تفضيل الجلسة -->
+            <div class="form-group">
+              <label for="resSeating" class="form-label">
+                <span>🛋️</span>
+                <span>تفضيل موقع الجلسة</span>
+              </label>
+              <select id="resSeating" class="form-control">
+                <option value="داخلية مكيفة وهادئة">صالة داخلية مكيفة وهادئة</option>
+                <option value="تراس خارجي في الهواء الطلق">تراس خارجي في الهواء الطلق</option>
+                <option value="ركن عائلي خاص ببارتشن">ركن عائلي خاص بسواتر للخصوصية</option>
+              </select>
+            </div>
+
+            <!-- ملاحظات إضافية -->
+            <div class="form-group full-width">
+              <label for="resNotes" class="form-label">
+                <span>✍️</span>
+                <span>أي ملاحظات أو ترتيبات خاصة ترغب بها؟</span>
+              </label>
+              <textarea id="resNotes" class="form-control" rows="3" placeholder="مثال: مقعد مرتفع للأطفال، تجهيز طاولة احتفال بعيد ميلاد، إلخ..."></textarea>
+            </div>
+
+            <!-- زر التأكيد -->
+            <div class="form-group full-width" style="margin-top: 10px;">
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 16px;">
+                <span>✨</span>
+                <span>تأكيد طلب حجز الطاولة الآن</span>
+                <span>✨</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       قسم آراء الضيوف (Testimonials Section)
+       ==================================================================== -->
+  <section class="section-padding" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span>❤️</span>
+          <span>شهادات نعتز بها</span>
+        </div>
+        <h2 class="section-title">ماذا يقول <span class="text-gold">ضيوفنا الكرام</span>؟</h2>
+        <div class="oriental-divider"><span>✦</span></div>
+        <p class="section-desc">سعادة ضيوفنا ورضاهم عن جودة المشويات والخدمة هو هدفنا الأول دائماً.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "من أفضل وأرقى مطاعم المشويات في مصر بلا منازع. الكباب والكفتة تذوب في الفم، وطاجن العكاوي بالبصل حكاية تانية خالص. الجلسات في فرع التجمع مريحة جداً للعائلات."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">م</div>
+            <div>
+              <div class="author-name">م. محمود عبد السلام</div>
+              <div class="author-visit">زيارة عائلية - فرع القاهرة</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "خدمة راقية وسرعة استثنائية في تقديم الطلبات ساخنة من على الفحم مباشرة. الخبز البلدي الطازج مع خلطة المقبلات والشيش طاووق تجربة لا تفوت. بالتأكيد سأكرر الزيارة."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">س</div>
+            <div>
+              <div class="author-name">د. سارة المنشاوي</div>
+              <div class="author-visit">عشاء عمل - فرع الجيزة (الشيخ زايد)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "احتفلنا بعيد ميلاد الوالد هناك وكان التنظيم فوق الوصف، الكنافة النابلسية وطاجن أم علي بالمكسرات ختموا اليوم بأحلى طعم. شكراً لطاقم العمل المحترم على كرم الضيافة."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">ط</div>
+            <div>
+              <div class="author-name">الأستاذ طارق خليل</div>
+              <div class="author-visit">مناسبة خاصة - فرع القاهرة</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+       التذييل (Footer)
+       ==================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- نبذة عن المطعم -->
+        <div>
+          <div class="brand-logo" style="margin-bottom: 18px;">
+            <div class="brand-icon">⚜️</div>
+            <div class="brand-text-wrapper">
+              <span class="brand-title restaurant-name-target">قصر الشرق</span>
+              <span class="brand-subtitle restaurant-subname-target">للمشويات والضيافة الشرقية</span>
+            </div>
+          </div>
+          <p class="footer-about-text">
+            وجهتكم الأولى لأشهى المشويات على الفحم والطواجن الفخارية المعتقة بوصفات شرقية أصيلة تحاكي التراث وتجسد كرم الضيافة العربية.
+          </p>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">f</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">📸</a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok">🎵</a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <!-- روابط سريعة -->
+        <div>
+          <h3 class="footer-col-title">روابط سريعة</h3>
+          <ul class="footer-links-list">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">قصة المطعم</a></li>
+            <li><a href="#menu">قائمة الطعام</a></li>
+            <li><a href="#branches">فروع القاهرة والجيزة</a></li>
+            <li><a href="#reservation">حجز طاولة</a></li>
+          </ul>
+        </div>
+
+        <!-- بيانات فرع القاهرة -->
+        <div>
+          <h3 class="footer-col-title">فرع القاهرة</h3>
+          <p class="footer-about-text" style="margin-bottom: 10px;">
+            📍 شارع التسعين الشمالي، التجمع الخامس، بجوار بتروسبورت
+          </p>
+          <p class="footer-about-text" style="margin-bottom: 10px;">
+            📞 02 21199881 / 010 1122 3344
+          </p>
+          <p class="footer-about-text">
+            ⏰ يومياً: 12:00 م - 02:00 ص
+          </p>
+        </div>
+
+        <!-- الخط الساخن وبيانات فرع الجيزة -->
+        <div>
+          <h3 class="footer-col-title">الخط الساخن والحجوزات</h3>
+          <div class="footer-hotline-card">
+            <span style="font-size: 0.85rem; color: var(--color-cream-muted);">اتصل بنا في أي وقت</span>
+            <a href="tel:19988" class="footer-hotline-num hotline-target">19988</a>
+            <span style="font-size: 0.8rem; color: var(--color-gold-light);">خدمة التوصيل وتجهيز الحفلات</span>
+          </div>
+          <p class="footer-about-text">
+            📍 فرع الجيزة: محور 26 يوليو، مدخل زايد 2، الشيخ زايد
+          </p>
+        </div>
+      </div>
+
+      <!-- حقوق النشر -->
+      <div class="footer-bottom">
+        <p>
+          جميع الحقوق محفوظة &copy; <span id="currentYear">2026</span> <strong class="restaurant-name-target">قصر الشرق</strong>. صُمم بحب وفخامة لأجلكم.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================================================================
+       الأزرار العائمة السريعة (Floating Action Buttons)
+       ==================================================================== -->
+  <div class="floating-actions-container">
+    <!-- زر محادثة الواتساب -->
+    <a href="#" target="_blank" rel="noopener noreferrer" class="fab-btn fab-whatsapp whatsapp-link-target" title="محادثة مباشرة عبر واتساب">
+      💬
+    </a>
+
+    <!-- زر الاتصال السريع بالخط الساخن -->
+    <a href="tel:19988" class="fab-btn fab-phone" title="الاتصال بالخط الساخن">
+      📞
+    </a>
+
+    <!-- زر العودة لأعلى الصفحة -->
+    <button class="fab-btn fab-scroll-top" id="scrollTopBtn" title="الرجوع للأعلى">
+      ↑
+    </button>
+  </div>
+
+  <!-- ====================================================================
+       نافذة تأكيد الحجز المنبثقة (Reservation Confirmation Modal)
+       ==================================================================== -->
+  <div class="modal-overlay" id="reservationModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="إغلاق النافذة">&times;</button>
+      <div class="modal-icon-success">✓</div>
+      <h3 class="modal-title">تم استلام طلب حجزك بنجاح!</h3>
+      <p class="modal-desc">يسعدنا جداً استقبالكم وتجهيز أرقى طاولة لتليق بكم وبضيوفكم الكرام.</p>
+      
+      <!-- ملخص الحجز -->
+      <div class="modal-details-summary" id="modalBookingSummary">
+        <!-- يعبأ تفاعلياً بواسطة JavaScript -->
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <button class="btn btn-primary" id="modalSendWhatsAppBtn">
+          <span>📲</span>
+          <span>إرسال تفاصيل الحجز للمطعم عبر واتساب</span>
+        </button>
+        <button class="btn btn-outline" id="modalDismissBtn">
+          <span>إغلاق والعودة للموقع</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ملفات الجافاسكريبت بالترتيب المنطقي -->
+  <script src="js/config.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    // تحديث سنة حقوق الملكية
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
